@@ -1,19 +1,29 @@
 body {
-    background-color: lightcyan;
+    background-color: floralwhite;
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
-    background-color: lightgrey;
+h1 {
+    font-size: xx-large;
 }
 
 .rules {
-    background-color: lightpink;
+    background-color: floralwhite;
+    margin: 10px 0;
+    padding: 10px 0;
+    line-height: 1.6;
 }
 
 .computerNum {
-    background-color: lime;
+    background-color: lightpink;
+    border: solid;
+    border-color: slategray;
+    border-width: 1px;
     height: 100px;
-    width: 30%;
+    width: 15%;
+    line-height: 1.5;;
 }
 
 .parent {
@@ -23,20 +33,30 @@ body {
 }
 
 .winLose {
-    /* float: right; */
-    background-color: linen;
-    width: 20%;
+    background-color: lightgrey;
+    border:solid;
+    border-color: lightpink;
+    border-width: 2px;
+    margin-left: 10px;
+    width: 8%;
+    line-height: 2.0;
+    text-align: center;
 }
 
 .gems {
-    /* float: left; */
-    width: 10%;
+    width: 5%;
+    height: 5%;
+    margin: 5px;
     padding: 1px;
     background-color: magenta;
 }
 
 .userScore {
     clear:both;
-    background-color: rgb(148, 148, 201);
+    background-color: lightpink;
+    border: solid;
+    border-color: slategray;
+    border-width: 1px;
     height: 100px;
+    width: 24%;
 }
