@@ -1,3 +1,10 @@
+
+//PseudoCoding
+// upon game start, assign random value to match, assign random values to gems
+// when gem pushed, add value to totalScore
+// check if game won, add 1 to wins, reset
+// check if game lost, add 1 to losses, reset
+
 $(document).ready(function(){
 
     var randomNum = 0;
@@ -24,8 +31,28 @@ $(document).ready(function(){
         console.log(gemNum)
     })
 
+    function calculateGems(){
+
+    }
+
+    function checkIfGameWon(){
+        if (totalScore === randomNum) {
+            $("userScore").append ("You Win!");
+            winTracker ++;
+        }
+
+    function checkIfGameLost(){
+        if  (totalScore > randomNum) {
+            $("userScore").append ("You Lost!");
+            lossTracker ++;
+        }
+    }   
 
 
+
+
+
+}
 
 
 })
