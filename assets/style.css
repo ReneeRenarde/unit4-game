@@ -1,0 +1,42 @@
+body {
+    background-color: lightcyan;
+}
+
+.header {
+    background-color: lightgrey;
+}
+
+.rules {
+    background-color: lightpink;
+}
+
+.computerNum {
+    background-color: lime;
+    height: 100px;
+    width: 30%;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.winLose {
+    /* float: right; */
+    background-color: linen;
+    width: 20%;
+}
+
+.gems {
+    /* float: left; */
+    width: 10%;
+    padding: 1px;
+    background-color: magenta;
+}
+
+.userScore {
+    clear:both;
+    background-color: rgb(148, 148, 201);
+    height: 100px;
+}
