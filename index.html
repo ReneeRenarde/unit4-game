@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal Collector Game!</title>
 
-
     <!-- link reset css -->
     <link rel="stylesheet" href="assets/reset.css">
 
@@ -17,10 +16,13 @@
 
 
 <body>
+
     <div class="header">
         <h1> Crystal Collector Game </h1>
     </div>
+
     <hr>
+
     <div class="rules">
         <p>You will be given a random number to match at the start of the game.</p>
         <p>Below, you will find four crystals, all with a hidden random value. By clicking
@@ -31,9 +33,10 @@
         <p>The value of each crystal is hidden from you until you click on it.</p>
         <p>With every new game, the values of each crystal change. </p>
     </div>
-    <hr>
-    <div class="parent">
 
+    <hr>
+
+    <div class="parent">
         <div class="computerNum">
             Match this score:
             <div id="randomNum"> 0 </div>
@@ -53,12 +56,14 @@
         <img src="assets/images/purpleGem.jpg" class="gems" alt="purple gem" width=100px height=100px>
 
         <img src="assets/images/redGem.jpg" class="gems" alt="red gem" width=100px height=100px>
-
     </div>
 
     <div class="userScore">
+        <div id="result">
+            
+        </div>
         <p>
-            Your total score is: <span id="totalScore"></span>
+            Your total score is: <span id="totalScore">0</span>
         </p>
     </div>
 
